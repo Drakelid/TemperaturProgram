@@ -1,0 +1,17 @@
+START
+    SPØR brukeren om å skrive inn en temperatur
+    LES inn temperaturen fra brukeren
+    KONVERTER inndata til et tall (f.eks. double)
+    
+    HVIS konvertering feiler:
+        SKRIV ut en feilmelding og avslutt programmet
+
+    HVIS temperaturen er under 0:
+        SKRIV ut "Det er iskaldt!"
+    ELLERS HVIS temperaturen er mellom 0 og 20 (inkludert 0):
+        SKRIV ut "Det er kaldt."
+    ELLERS HVIS temperaturen er mellom 21 og 30:
+        SKRIV ut "Det er behagelig."
+    ELLERS (temperaturen er over 30):
+        SKRIV ut "Det er varmt!"
+SLUTT
